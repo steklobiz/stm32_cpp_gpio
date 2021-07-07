@@ -1,5 +1,7 @@
 *
 .gitignore
+!Src/
+!Inc/
 !*.cpp
 !*.hpp
 !*.c
