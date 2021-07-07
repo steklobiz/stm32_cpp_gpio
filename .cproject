@@ -85,7 +85,7 @@
                                     									
                                     <listOptionValue builtIn="false" value="../Inc"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/f042_gpio_cpp/CMSIS/inc}&quot;"/>
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/f042_cpp_gpio/CMSIS/inc}&quot;"/>
                                     								
                                 </option>
                                 								
@@ -115,7 +115,7 @@
                                     									
                                     <listOptionValue builtIn="false" value="../Inc"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/f042_gpio_cpp/CMSIS/inc}&quot;"/>
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/f042_cpp_gpio/CMSIS/inc}&quot;"/>
                                     								
                                 </option>
                                 								
@@ -384,5 +384,7 @@
     </storageModule>
     	
     <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    	
+    <storageModule moduleId="refreshScope"/>
     
 </cproject>
