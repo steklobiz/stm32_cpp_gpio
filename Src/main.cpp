@@ -5,8 +5,6 @@
 #include <cstdlib>
 #include "gpio.hpp"
 
-gpio::Pin pb5;
-
 //	RCC initialization
 void initRCC(void)
 {

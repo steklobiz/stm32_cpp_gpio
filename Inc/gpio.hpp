@@ -30,16 +30,12 @@ enum class pins:int {
 	pin0 = 0, pin1, pin2, pin3, pin4, pin5, pin6, pin7, pin8, pin9, pin10, pin11, pin12, pin13, pin14, pin15
 };
 
-struct Pin{
-	uint8_t pin;
-	//3 bytes go here
-	GPIO_TypeDef* port;
-};
-
-inline void init(Pin pin, mode m = mode::input, type t = type::PP, speed s = speed::low, pupd p = pupd::nopupd, af a = af::af0);
-inline void set(Pin p);
-inline void reset(Pin p);
-inline void toggle(Pin p);
+/*
+enum class device:int {
+ GPIO_A = 0, GPIO_B, GPIO_C,
+ GPIO_D, GPIO_E, GPIO_F //GPIO_E is reserved
+ };
+*/
 
 class io
 {
